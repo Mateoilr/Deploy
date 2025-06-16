@@ -74,5 +74,10 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+
+  "resolutions": {
+  "glob": "8.1.0",
+  "minimatch": "9.0.1"
+}
 }
