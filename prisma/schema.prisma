@@ -19,3 +19,4 @@ model Product {
   price       Decimal @db.Decimal(10, 2) @default(0.0)
   description String?
 }
+

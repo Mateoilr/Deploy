@@ -13,6 +13,7 @@ export class ProductsController {
   }
 
   
+  
 
  @Get(':id')
   findOne(@Param('id', ParseIntPipe) id: number) {
